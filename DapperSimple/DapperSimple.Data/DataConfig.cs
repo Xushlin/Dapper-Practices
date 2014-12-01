@@ -19,7 +19,7 @@ namespace DapperSimple.Data
 
         public static string GetPrimaryConnectionString()
         {
-            var connectionStringKey = "DefaultConnection";
+            const string connectionStringKey = "DefaultConnection";
 
             if (ConfigurationManager.ConnectionStrings[connectionStringKey] == null)
                 throw new ConfigurationErrorsException(
