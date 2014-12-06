@@ -11,7 +11,7 @@ namespace DapperSimple.Data
             using (var connection = new SqlConnection(DataConfig.GetPrimaryConnectionString()))
             {
                 connection.Open();
-                connection.Execute(sql, t);
+                connection.Execute(sql, t); 
             }
         }
         public void InsertMultiCategories<T>(string sql, List<T> t)
