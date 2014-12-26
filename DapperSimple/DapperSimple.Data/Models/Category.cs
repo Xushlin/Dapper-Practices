@@ -1,6 +1,4 @@
-﻿using Dapper.Contrib.Extensions;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
 
 namespace DapperSimple.Data.Models
 {

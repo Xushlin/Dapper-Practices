@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FluentMigrator;
+﻿using FluentMigrator;
 
 namespace DapperSimple.Data.Migrations
 {
     [Migration(2014112901)]
+// ReSharper disable once InconsistentNaming
     public class _2014112901_Init : Migration
     {
         public override void Up()
